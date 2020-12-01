@@ -1,0 +1,37 @@
+{
+  "name": "chain_kernel",
+  "version": "1.0.0",
+  "description": "block chain core with js for everywhere",
+  "scripts": {
+    "start": "cross-env CHAINCORE_ENV=development webpack",
+    "build": "cross-env CHAINCORE_ENV=production webpack"
+  },
+  "author": "kayosun",
+  "license": "ISC",
+  "dependencies": {
+    "bech32": "=1.1.3",
+    "bip39": "^2.5.0",
+    "bitcoinjs-lib": "^5.1.6",
+    "bitcore-lib": "^8.14.4",
+    "bitcore-mnemonic": "^8.14.4",
+    "bn.js": "=4.11.8",
+    "bs58": "^4.0.1",
+    "buffer-compare": "=1.1.1",
+    "cross-env": "^7.0.2",
+    "elliptic": "=6.4.0",
+    "ethers": "3.0.15",
+    "inherits": "=2.0.1",
+    "lodash": "=4.17.15",
+    "tronweb": "=2.1.15"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "ignore-emit-webpack-plugin": "^0.2.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^3.12.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "main": "index.js"
+}
